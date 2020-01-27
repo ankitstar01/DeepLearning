@@ -70,10 +70,24 @@ cm = confusion_matrix(y_test,y_pred)
 acc = accuracy_score(y_pred,y_test)
 print(acc)
 
+#To predict if the customer will stay with the bank or not
+#Below are the given data
+'''
+Geography: France
+Credit Score: 600
+Gender: Male
+Age: 40
+Tenure: 3
+Balance: 60000
+Number of Products: 2
+Has Credit Card: Yes
+Is Active Member: Yes
+Estimated Salary: 50000
+'''
+new_prediction = classifier.predict(sc.transform(np.array([[0, 0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]]))) #Classifier need an array of data hence used np.array(). The data we provided is not scaled hence we used sc.tranform to scale it in the same as the model was trained before. 
+new_prediction = (new_prediction> 0.5) #Again we need to classify the result as true or false
 
-
-
-
+print('Customer Leaves Bank?:', new_prediction[0][0])
 
 
 
