@@ -1,4 +1,4 @@
-# ANN
+# ANN: Predicting rate of attrition
 * __Input:__ A banking data which shows the the customers who are leaving the bank(Churn rate)
 * __Output:__ To identify which customers are going to leave the bank based on several different factors.
 * __Accuracy(Training):__ Accuracy achieved using ANN on training data: __84%(Approx)__
