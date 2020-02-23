@@ -3,6 +3,7 @@
 * __Output:__ To identify which customers are going to leave the bank based on several different factors.
 * __Accuracy(Training):__ Accuracy achieved using ANN on training data: __84%(Approx)__
 * __Accuracy(Test):__ __83%(Approx)__
+* __Accuracy(After Tunning the ANN) : 85%
 
 
 **Dummy Variable Trap**: The Dummy Variable trap is a scenario in which the independent variables are multicollinear — a scenario in which two or more variables are highly correlated; in simple terms one variable can be predicted from the others.
