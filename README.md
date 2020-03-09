@@ -6,4 +6,4 @@
 
 [3. Classify Images of Clothing Using Tensorflow: FASHION MNIST](https://github.com/ankitk2109/DeepLearning/tree/master/Classify_Images_of_Clothing_Using_Tensorflow)
 
-[4. Multi-label classification using Binary Relevance and Classifier chain from scratch]https://github.com/ankitk2109/DeepLearning/tree/master/BR_%26_ClassifierChain
+[4. Multi-label classification using Binary Relevance and Classifier chain from scratch](https://github.com/ankitk2109/DeepLearning/tree/master/BR_%26_ClassifierChain)
